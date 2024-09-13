@@ -106,10 +106,14 @@ a {
   )
   .container:first-child {
   padding: 6.4rem 0 2.4rem 0;
+
+  /* background-color: #c2d0ec; */
 }
 
 .grid {
   display: grid;
+  gap: 2rem;
+  
 }
 
 .grid-two--cols {
@@ -460,7 +464,7 @@ main .section-hero {
 .section-policy {
   & .container {
     padding: 3.2rem 0;
-    background-color: #fefefe;
+    background-color: #e0e6f7;
     border-radius: 0.5rem;
   }
 }
@@ -569,19 +573,19 @@ main .section-hero {
 
 @keyframes circle {
   0% {
-    background-color: #b3d0ff;
+    background-color: #ff11bf;
   }
   25% {
-    background-color: #80b1ff;
+    background-color: #f5dc1f;
   }
   50% {
-    background-color: #4d91ff;
+    background-color: #4df9ff;
   }
   75% {
-    background-color: #99c0ff;
+    background-color: #0afbcb;
   }
   100% {
-    background-color: #3381ff;
+    background-color: #09f396 ;
   }
 }
 
