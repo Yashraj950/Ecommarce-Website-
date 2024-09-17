@@ -1,5 +1,4 @@
 // import { getCartProductFromLS } from "./getCartProduct";
-
 const cartValue = document.querySelector("#cartValue");
 
 export const updateCartValue = (cartProducts) => {
