@@ -1,6 +1,5 @@
 import products from "./api/products.json";
-// import { fetchQuantityFromCartLS } from "./fetchQuantityFromCartLs";
-import { fetchQuantityFromCartLS } from "./fetchQuantityFromCartLs";
+import { fetchQuantityFromCartLS } from "./fetchQuantityFromCartLS";
 import { getCartProductFromLS } from "./getCartProducts";
 import { incrementDecrement } from "./incrementDecrement";
 import { removeProdFromCart } from "./removeProdFromCart";
